@@ -11,6 +11,12 @@
         android:textSize="20sp"
         android:textColor="#ffffff"
         android:gravity="center"
+        android:visibility="gone"
         android:background="#000000"
         android:text="你好" />
+
+    <com.lizhidu.androidzuobiao.ScrollerView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+ />
 </LinearLayout>

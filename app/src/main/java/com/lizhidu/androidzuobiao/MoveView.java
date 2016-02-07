@@ -69,7 +69,9 @@ public class MoveView extends TextView  {
 //                setLayoutParams(layoutParams);
                 //4.scrollBy
 //                scrollBy(offsetX,offsetY); //这样没法移动view本身，而已移动的view的内容
-                ((View)this.getParent()).scrollBy(-offsetX,-offsetY);
+//                ((View)this.getParent()).scrollBy(-offsetX,-offsetY);
+                // 5.scrollto
+
                 break;
             case MotionEvent.ACTION_UP:
 
