@@ -74,6 +74,10 @@ public class ScrollerView extends View {
                 View view = (View) getParent();
                 mScroller.startScroll(view.getScrollX(), view.getScrollY(), -view.getScrollX()+100, -view.getScrollY()+100,3000);
                 invalidate();//不断绘制，调用computercroll
+
+//                ((View) getParent()).scrollTo(
+//                        mScroller.getCurrX(),
+//                        mScroller.getCurrY());
                 break;
         }
         return true;
